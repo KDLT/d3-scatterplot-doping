@@ -137,7 +137,7 @@ class Scatterplot extends Component {
             <text id='legend-label' x={this.state.width*.78} y={120}>with doping allegations</text>
             <text id='legend-label' x={this.state.width*.78} y={160}>without doping allegations</text>
           </g>
-          <text id='y-axis-label' style={{'transform': `translate(${this.state.padding/2}px,50%) rotate(-90deg)`}}>Time in Minutes</text>
+          <text id='y-axis-label'>Time in Minutes</text>
         </svg>
         <div id='tooltip' style={{'opacity': 0}}></div>
       </div>
