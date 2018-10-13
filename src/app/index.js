@@ -16,6 +16,6 @@ class App extends Component {
 };
 
 render(
-  <App />,
+  <Scatterplot />,
   document.getElementById('root')
 );

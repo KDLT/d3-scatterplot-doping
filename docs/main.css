@@ -1,0 +1,23 @@
+svg {
+  background: white;
+  border-radius: 10px;
+  fill: white;
+  stroke: black; }
+
+text {
+  font-weight: 100; }
+
+#tooltip {
+  font-size: 0.8rem;
+  color: white;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  padding: 12px 15px;
+  width: 100px; }
+
+html, body {
+  background: #a3a3a3;
+  color: black;
+  text-align: center;
+  font-family: "trebuchet ms", "sans-serif", "arial"; }
